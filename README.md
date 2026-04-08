@@ -25,6 +25,7 @@ There are 5 main python files associated with this project:
 - If you manually import umap you must use the code: `pip install umap-learn`
 - `1_Feature_Engineering.ipynb` takes a very long time to run due to the aspect extraction and sentiment analysis. We have included the dataset `aspects_raw.parquet` to avoid running the Batch Aspect & Sentiment Extraction and Save Raw Aspects & Summary Statistics sections out of the sake of time.
 - Please use python version 3.11 to avoid errors
+- Even with the use of random seed specification and additional reproducable parameters, there may still be discrepancies due to libraries having slight variations in outputs even when randomness is specified
 
 ## Base Environment Setup
 
